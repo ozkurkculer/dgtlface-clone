@@ -4,7 +4,7 @@ import { FaTelegram, FaPhone } from "react-icons/fa6";
 
 export default function Header(){
     return(
-        <div className="sticky top-0 px-10 py-5 flex flex-row items-center justify-between">
+        <div className="sticky z-20 top-0 px-10 py-5 flex flex-row items-center justify-between bg-white bg-blend-color-burn">
             <Image src={'https://dgtlface.com/wp-content/uploads/2022/08/DGTLFACE_400X400_Siyah-300x300-1-e1663175143749.png'} width={225} height={225} alt='Digitalface Logo' />
             <Navbar />
             <div className="flex flex-row gap-5">
